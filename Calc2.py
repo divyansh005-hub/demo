@@ -1,8 +1,8 @@
 # This function adds two numbers
-import Addition
-import Subtraction
+import add
+import subtratcion
 import Multiplication
-import Division
+import division
 
 # This is to present a menu to the user
 print("Select operation.")
@@ -25,16 +25,16 @@ while True:
             continue
 
         if choice == '1':
-            print(num1, "+", num2, "=", Addition.add(num1, num2))
+            print(num1, "+", num2, "=", add.add(num1, num2))
 
         elif choice == '2':
-            print(num1, "-", num2, "=", Subtraction.subtract(num1, num2))
+            print(num1, "-", num2, "=", subtratcion.subtract(num1, num2))
 
         elif choice == '3':
             print(num1, "*", num2, "=", Multiplication.multiply(num1, num2))
 
         elif choice == '4':
-            print(num1, "/", num2, "=", Division.divide(num1, num2))
+            print(num1, "/", num2, "=", division.divide(num1, num2))
         
         # check if user wants another calculation
         # break the while loop if answer is no
